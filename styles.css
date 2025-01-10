@@ -1,0 +1,122 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #0078d7;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #005a9e;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.hero {
+    padding: 2rem 1rem;
+    background: #0078d7;
+    color: #fff;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 0;
+    color: #005a9e;
+}
+
+ul {
+    padding: 0;
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005a9e;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #005a9e;
+    color: #fff;
+}
+
+.social-icons {
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
